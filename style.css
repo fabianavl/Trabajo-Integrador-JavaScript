@@ -1,0 +1,52 @@
+ nav img {
+   width: 120px;
+ }
+ 
+ .navbar-nav {
+   margin-left: auto;
+} 
+
+.fondo-principal {
+   position: relative;
+   background: url(./imagenes_integrador_front/ba1.jpg);
+   background-size: cover;
+   min-height: 640px;
+}
+
+.contenido {
+   position: absolute;
+   background: rgba(11, 1, 39, .4);
+   color: white;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%
+}
+
+#texto {
+   text-align: right;
+   margin-top: 3rem; 
+   margin-left: auto;
+   overflow: auto;
+}
+
+.oradores {
+   font-size: xx-large;
+}
+
+.ignite {
+   text-decoration: underline dotted;
+}
+
+footer {
+    background: #1f5271;  
+    height: 130px;
+ }
+
+ footer a {
+   text-decoration: none;
+   color: white; 
+   display: block;
+   text-align: center;  
+   padding-top: 2.5rem;
+ }
